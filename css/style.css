@@ -1,0 +1,100 @@
+ * { 
+	margin: 0;
+	padding: 0;
+}
+
+
+h1{ font-size:50px;
+	 margin-bottom:50px;
+	}
+.container{ 
+		margin:50px;
+		width: 80%;
+		}
+.header {
+	margin-bottom: 50px;	
+}
+.menu1 {
+		background-color: grey;	
+}
+
+li {
+	display: inline-table;
+	font: 25px Arial, sans-serif;
+	margin: 20px;
+	vertical-align: middle;
+	width: 100px;	
+}
+li a {
+	color: white;
+	text-decoration: none;
+}
+
+.cont2{
+	position: absolute;	
+	margin-right: 25px;
+	background-color: white;
+	width: 20%;
+	border: 1px solid #bdbdbd;
+}
+
+.menu2 {
+	 
+	 color: black;
+	 padding: 15px 20px;
+	 text-align: left;
+	 border: 1px solid #bdbdbd;
+	 font: 16px Arial, sans-serif;
+	 
+}
+
+
+a {
+	text-decoration: none;
+	color: black;	
+}
+
+.content {
+	width: 70%;	
+	float: right;
+}
+
+
+.imgcontent {
+	display: block;
+	width: 100%;
+	border: 1px solid #bdbdbd;
+}
+
+p {
+	padding: 20px;
+}	
+	
+.footer {
+	clear: both;
+	background-color: #bdbdbd;
+	overflow: hidden;
+	
+}
+
+
+
+.footermenu li {
+	float: left;
+	display: inline-block;
+	vertical-align: middle;
+	width: 5%;
+	font: 14px Arial, sans-serif;
+	margin: 5px;
+	padding: 20px;
+		
+}
+.footermenu>li a {
+	color: black;
+}
+.all {
+	float: right;
+	color: black;
+	font: 14px Arial, sans-serif;
+	margin: 5px;
+}
