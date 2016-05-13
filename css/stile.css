@@ -15,8 +15,9 @@ h1{ font-size:50px;
 	margin-bottom: 50px;	
 }
 .menu1 {
-		background-color: grey;	
+		background-color: #555555;
 }
+
 
 li {
 	display: inline-table;
@@ -26,26 +27,39 @@ li {
 	width: 100px;	
 }
 li a {
-	color: white;
+	color: #fff;
 	text-decoration: none;
+	padding: 5px;
 }
-
+  li a:visited {
+    color:  #fff; /* Цвет посещенной ссылки */
+   } 
+  li a:hover {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: #fff; /* Цвет ссылки при наведении на нее курсора мыши */  
+    background: #424242; /* Цвет фона */
+	
+   }
 .cont2{
 	position: absolute;	
 	margin-right: 25px;
-	background-color: white;
+	background-color: #fff;
 	width: 20%;
 	border: 1px solid #bdbdbd;
 }
 
 .menu2 {
 	 
-	 color: black;
+	 color: #7a7878;
 	 padding: 15px 20px;
 	 text-align: left;
 	 border: 1px solid #bdbdbd;
 	 font: 16px Arial, sans-serif;
 	 
+}
+.menu2:hover{
+	text-align:center;
+	 color:2c2c2c;
 }
 
 
@@ -98,3 +112,4 @@ p {
 	font: 14px Arial, sans-serif;
 	margin: 5px;
 }
+
