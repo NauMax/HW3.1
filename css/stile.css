@@ -1,30 +1,47 @@
-* { 
+* {
 	margin: 0;
 	padding: 0;
 }
+body{
+	background-image: url(../img/bg.png);
+}
 
-
-h1{ font-size:50px;
-	 margin-bottom:50px;
+.logo{
+	 font-size:50px;
+	 margin-top:50px;
+	 margin-left: 50px;
 	}
-.container{ 
-		margin:15%;
-		width: 70%;
+.container{
+	background-image: url(../img/cont.png);
+		margin:0 auto;;
+		width: 1075px;
+		height: 950px;
 		}
 .header {
-	margin-bottom: 50px;	
+	margin-bottom: 50px;
 }
 .menu1 {
 		background-color: #555555;
-}
+			width: 960px;
+			margin-left: 60px;
+			margin-right: 60px;
 
+			background: -moz-linear-gradient(top, #5e5e5e 0%, #444343 100%);
+			background: -webkit-gradient(left top, left bottom, color-stop(0%, #5e5e5e), color-stop(100%, #444343));
+	background: -webkit-linear-gradient(top, #5e5e5e 0%, #444343 100%);
+	background: -o-linear-gradient(top, #5e5e5e 0%, #444343 100%);
+	background: -ms-linear-gradient(top, #5e5e5e 0%, #444343 100%);
+	background: linear-gradient(to bottom, #5e5e5e 0%, #444343 100%);
+}
 
 li {
 	display: inline-table;
 	font: 20px Arial, sans-serif;
-	margin: 20px;
+	margin: 15px;
+	margin-left: 5px;
 	vertical-align: middle;
-	width: 100px;	
+	width: 120px;
+	padding-left: 0px;
 }
 .men li  {
 	color: #fff;
@@ -33,30 +50,31 @@ li {
 }
   li a:visited {
     color:  #fff; /* Цвет посещенной ссылки */
-   } 
+   }
   li a:hover {
     text-decoration: none; /* Убираем подчеркивание */
-    color: #fff; /* Цвет ссылки при наведении на нее курсора мыши */  
+    color: #fff; /* Цвет ссылки при наведении на нее курсора мыши */
     background: #424242; /* Цвет фона */
-	padding: 20px;
-	
+	padding: 15px;
+
    }
 .cont2{
-	position: absolute;	
+	position: absolute;
 	margin-right: 25px;
+	margin-left: 60px;
 	background-color: #fff;
-	width: 20%;
+	width: 240px;
 	border: 1px solid #bdbdbd;
 }
 
 .menu2 {
-	 
+
 	 color: #7a7878;
 	 padding: 15px 20px;
 	 text-align: left;
-	 border: 1px solid #bdbdbd;
+	 border-top: 1px solid #bdbdbd;
 	 font: 16px Arial, sans-serif;
-	 
+
 }
 
 .menu2:hover{
@@ -67,47 +85,60 @@ li {
 
 a {
 	text-decoration: none;
-	color: black;	
+	color: black;
 }
 
 .content {
-	width: 70%;	
+	width: 70%;
 	float: right;
 }
 
 
 .imgcontent {
 	display: block;
-	width: 100%;
+	width: 680px;
 	border: 1px solid #bdbdbd;
+	margin-left: 17px;
 }
 
 p {
 	padding: 20px;
-}	
-	
+	margin-right: 60px
+}
+
 .footer {
 	clear: both;
 	background-color: #bdbdbd;
 	overflow: hidden;
-	
+	width: 960px;
+	margin-left: 60px;
+	margin-right: 60px;
 }
-
-
 
 .footermenu li {
 	float: left;
 	display: inline-block;
 	vertical-align: middle;
 	width: 5%;
+	height: 15px;
 	font: 14px Arial, sans-serif;
 	margin: 5px;
 	padding: 20px;
-		
+
 }
 .footermenu>li a {
 	color: black;
 }
+.footer  li a:visited {
+    color:  #2c2c2c; /* Цвет посещенной ссылки */
+   }
+.footer  li a:hover {
+    text-decoration: underline;; /* Убираем подчеркивание */
+    color: #2c2c2c; /* Цвет ссылки при наведении на нее курсора мыши */
+    background-color: #bdbdbd; /* Цвет фона */
+	padding: 20px;
+
+   }
 .all {
 	float: right;
 	color: black;
